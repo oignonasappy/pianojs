@@ -1,9 +1,12 @@
 # バージョン履歴
 
-#### 1.0.1
+#### v1.0.2
+行46の誤字を修正。
+
+#### v1.0.1
 ファイル全体に対し`"use strict";`を追加。
 
-## 1.0.0
+## v1.0.0
 初期バージョンであり、  
 ピアノの種類は`.piano`, `.piano-hover`, `piano-play`をサポート。  
 データ属性は`data-first`, `data-last`, `data-key-width`, `data-key-height`, `data-highlight`, `data-highlight-color`, `data-notename`, `data-key-signature`, `data-custom-notename`, `data-volume`, `data-duration`, `data-osc-type`, `data-tuning`をサポート。  
