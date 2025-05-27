@@ -171,7 +171,7 @@ function pianoLoad() {
             key.appendChild(label);
 
             /* piano-hover */
-            if (piano.className === 'piano-hover') {
+            if (piano.classList.contains('piano-hover')) {
                 // 侵入時
                 key.addEventListener('mouseover', () => {
                     key.style.filter = 'invert(20%)';
@@ -187,7 +187,7 @@ function pianoLoad() {
             }
 
             /* piano-play */
-            if (piano.className === 'piano-play') {
+            if (piano.classList.contains('piano-play')) {
                 // 侵入時
                 key.addEventListener('mouseover', () => {
                     if (pianoMouseDown) {
