@@ -37,7 +37,7 @@ pianoLoad();
  */
 function pianoLoad() {
     // 全てのpianoに対し処理
-    const pianos = document.querySelectorAll(`[class*='piano']`);
+    const pianos = document.querySelectorAll(`[class^='piano']`);
     pianos.forEach(piano => {
         if (piano.loaded) return;
         piano.loaded = true;
