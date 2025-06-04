@@ -106,7 +106,6 @@ function pianoLoad() {
             // 鍵盤共通のCSS
             key.style.position = 'absolute';
             key.style.transition = 'filter 50ms ease-out, background-color 50ms ease-out';
-            key.style.cursor = 'pointer';
 
             if (!isBlackKey(midi)) {
                 // 白鍵の処理
@@ -189,6 +188,8 @@ function pianoLoad() {
 
             /* piano-play */
             if (piano.classList.contains('piano-play')) {
+                // カーソル変化
+                key.style.cursor = 'pointer';
                 // 侵入時
                 key.addEventListener('mouseover', () => {
                     if (pianoMouseDown) {
