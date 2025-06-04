@@ -1,7 +1,7 @@
 # バージョン履歴
 
 #### v1.1.2
-- 鍵盤に`cursor: pointer;`を設定。
+- .piano-playに`cursor: pointer;`を設定。
 
 #### v1.1.1
 - メソッド`midiToNoteName()`は小数の`midi`を受け取った時に最も近い音名を返すように。
