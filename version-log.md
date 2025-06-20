@@ -1,5 +1,8 @@
 # バージョン履歴
 
+### v1.2.0
+- メソッド`hzToMidi()`を追加。
+
 #### v1.1.2
 - .piano-playに`cursor: pointer;`を設定。
 
